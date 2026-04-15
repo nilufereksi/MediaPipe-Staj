@@ -1,0 +1,11 @@
+# MediFace AI — Bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+# Görüntü işleme ve kamera
+opencv-python>=4.8.0
+
+# Yüz landmark tespiti (Tasks API — face_landmarker.task gerektirir)
+mediapipe>=0.10.0
+
+# Standart kütüphaneler (ayrıca kurulum gerekmez)
+# csv, os, time, argparse, datetime — Python built-in

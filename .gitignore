@@ -1,0 +1,142 @@
+# ============================================================
+#  MediFace — .gitignore
+# ============================================================
+
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# Pytest / testing cache
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# ---------------------------
+# Veri & Log Dosyaları
+# ---------------------------
+# Oturum bazlı CSV log'ları (data_logs/)
+data_logs/
+*.csv
+
+# Datasets içindeki ham veri (büyük dosyalar)
+datasets/veri/
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.mp4
+datasets/**/*.avi
+datasets/**/*.mov
+
+# ---------------------------
+# Model Dosyaları (büyük ikili dosyalar)
+# ---------------------------
+# TFLite / MediaPipe model dosyaları genellikle büyüktür;
+# bunları Git LFS ile yönetmek veya README'de indirme talimatı
+# vermek tercih edilir. Takip etmek istiyorsan bu satırları sil.
+models/*.tflite
+models/*.task
+models/*.pb
+models/*.h5
+models/*.onnx
+models/*.pt
+models/*.pth
+
+# ---------------------------
+# IDE & Editör
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---------------------------
+# İşletim Sistemi
+# ---------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ---------------------------
+# Geçici & Derleme Çıktıları
+# ---------------------------
+*.log
+*.tmp
+*.bak
+*.orig
+*.old
+
+# PyInstaller çıktıları (eğer exe derliyorsan)
+*.spec
+dist/
+build/
+
+# ---------------------------
+# Güvenlik & Gizlilik
+# ---------------------------
+# Kamera görüntüleri / ekran görüntüleri (privacy-first prensip)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# API anahtarları / gizli konfigürasyonlar
+*.env
+secrets.py
+config_local.py
+credentials.json
+service_account.json
