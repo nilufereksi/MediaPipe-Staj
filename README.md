@@ -2,6 +2,8 @@
 
 > MediaPipe tabanlı yüz landmark tespiti, AU koordinatı kaydı ve mesh görselleştirmesi sunan, gizlilik odaklı gerçek zamanlı yüz analizi kontrol paneli.
 
+<img width="1141" height="679" alt="resim" src="https://github.com/user-attachments/assets/d3004ec3-91ad-4d67-8498-58d217dc84f0" />
+
 ---
 
 ## 🚀 Özellikler
